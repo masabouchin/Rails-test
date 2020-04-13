@@ -1,0 +1,95 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ body{
+  background-color: #fff;
+  color: #333;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 20px;
+}
+
+
+.top-mainbox{
+  margin-left: 20px;
+  padding-bottom: 70px;
+  
+}
+
+header{
+    font-size: 18px;
+    margin-left: 30px;
+    display: block;
+    font-weight: bold;
+    font-family: verdana, arial, helvetica, sans-serif;
+}
+
+.thead-box{
+  margin-left: 30px;
+}
+
+thead{
+  display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+h1{
+    font-size: 2em;
+    font-weight: bold;
+
+}
+.Book-text{
+  padding-top: 5px;
+}
+
+
+.sidebar-headline{
+  padding:auto;
+  margin-left: 30px;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+.createbox-contents{
+  margin-left: 30px;
+  padding-bottom: 20px;
+}
+
+.succses-bar{
+  color: green;
+  font-style: oblique;
+  font-size: 20px;
+}
+
+.show-detail{
+  background-color: #fff;
+    color: #333;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+
+table{
+  padding: 0 55px ;
+  font-size: 13px;
+}
+
+
+th{
+  padding: 0 250px 0 0px;;
+}
